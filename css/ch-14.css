@@ -37,6 +37,13 @@
     position: absolute;
 }
 
+
+@media (max-width:767px) {
+    .container {
+        width: 400px;
+    }
+}
+
 .container::before {
     content: '';
     background-color: #607d8b;
