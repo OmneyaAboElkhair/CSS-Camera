@@ -93,12 +93,12 @@
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     border-radius: 50px 50px 0px 0px;
-    
+
 }
 
 .container span::before {
     content: '';
-    width: 80% ;
+    width: 80%;
     height: 30px;
     background-color: #ccc;
     position: absolute;
@@ -160,7 +160,7 @@
 }
 
 @media (max-width:767px) {
-    .container div:nth-of-type(2){
+    .container div:nth-of-type(2) {
         width: 150px;
         height: 150px;
     }
@@ -204,10 +204,13 @@
         width: 65px;
         height: 65px;
     }
-     .container div:last-of-type::after {
+
+    .container div:last-of-type::after {
         width: 15px;
         height: 15px;
-     }
+        top: 10px;
+        left: 10px;
+    }
 
 
 }
