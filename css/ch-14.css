@@ -106,6 +106,7 @@
     -o-border-radius: 10px 10px 0px 0px;
 }
 
+
 .container span:first-of-type::before,
 .container span:first-of-type::after {
     content: "";
@@ -148,6 +149,21 @@
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+
+}
+
+/* Media Queries */
+
+@media (max-width:767px) {
+    .container span:first-of-type {
+        width: 80px;
+    }
+
+    .container span:last-of-type {
+        width: 75px;
+        border-width: 6px 22px;
+    }
+
 
 }
 
@@ -218,6 +234,8 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
+/* Media Queries */
 
 @media (max-width:767px) {
     .container div:last-of-type {
